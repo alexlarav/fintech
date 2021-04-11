@@ -1,0 +1,11 @@
+version: '1'
+services:
+  mysql_fintech:
+    image: 'mysql:latest'
+    restart: always
+    volumes:
+      - './mysql_data:/var/lib/mysql'
+    environment:
+      - MYSQL_ROOT_PASSWORD=892bwi
+    ports:
+      - '3306:3306'
