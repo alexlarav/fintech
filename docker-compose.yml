@@ -1,6 +1,6 @@
 version: '2.2'
 services:
-  mysqls:
+  mysql:
     image: 'mysql:latest'
     restart: always
     volumes:
