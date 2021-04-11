@@ -1,6 +1,6 @@
 version: '2.2'
 services:
-  mysql_fintech:
+  mysqls:
     image: 'mysql:latest'
     restart: always
     volumes:
